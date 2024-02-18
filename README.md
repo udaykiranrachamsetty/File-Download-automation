@@ -44,7 +44,7 @@ To set the script to run at startup, copy main.exe to your Startup folder (acces
 ```
 ## Usage
 
-**Direct Execution**: Run python main.py from the command line if not using the executable.
+**Direct Execution**: Run python main.py from the command line if not using the executable.\n
 **Executable**: Double-click main.exe in the dist folder or place it in your startup folder for automatic execution on system startup.
 
 
