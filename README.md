@@ -16,4 +16,10 @@ This project includes a Python script designed to automatically organize files i
 - Python 3.6 or later
 - `watchdog` Python library
 
+## Installation
+1. **Clone the Repository**
+   Clone the project to your local machine and navigate into the project directory:
+   
+   ```bash
+   git clone https://github.com/udaykiranrachamsetty/File-Organizer.git
 
