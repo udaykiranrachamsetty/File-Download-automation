@@ -27,7 +27,7 @@ git clone https://github.com/udaykiranrachamsetty/File-Organizer.git
 cd File-Organizer
 
 ```
-##Convert Script to Executable (Optional)
+## Convert Script to Executable (Optional)
 For Windows users who wish to run the script at startup:
 
 ```bash
@@ -36,13 +36,13 @@ pyinstaller --onefile main.py
 ```
 After conversion, the executable will be located in the dist directory. You can directly use this executable without running the script through a Python interpreter.
 
-##Using the Executable
+## Using the Executable
 Navigate to the dist folder to find the executable version of your script:
 ```bash
 File-Organizer/dist/main.exe
 To set the script to run at startup, copy main.exe to your Startup folder (accessible by typing shell:startup in the Run dialog on Windows).
 ```
-##Usage
+## Usage
 
 **Direct Execution**: Run python main.py from the command line if not using the executable.
 **Executable**: Double-click main.exe in the dist folder or place it in your startup folder for automatic execution on system startup.
