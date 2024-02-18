@@ -25,12 +25,3 @@ Clone the project to your local machine and navigate into the project directory:
 ```bash
 git clone https://github.com/udaykiranrachamsetty/File-Organizer.git
 cd File-Organizer
-
-
-## Convert Script to Executable (Optional)
-For Windows users who wish to run the script at startup:
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile main.py
-
