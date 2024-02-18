@@ -27,7 +27,8 @@ git clone https://github.com/udaykiranrachamsetty/File-Organizer.git
 cd File-Organizer
 
 ```
-## Convert Script to Executable (Optional)
+## Important Note :Modify the directory that you want to monitor and make sure you include path correctly.
+## Convert Script to Executable
 For Windows users who wish to run the script at startup:
 
 ```bash
