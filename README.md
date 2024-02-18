@@ -23,3 +23,9 @@ This project includes a Python script designed to automatically organize files i
    ```bash
    git clone https://github.com/udaykiranrachamsetty/File-Organizer.git
 
+2. **Convert Script to Executable (Optional)**
+   For Windows users who wish to run the script at startup:
+
+```bash
+   pip install pyinstaller
+   pyinstaller --onefile main.py
