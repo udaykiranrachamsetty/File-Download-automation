@@ -62,12 +62,14 @@ class MoverHandler(FileSystemEventHandler):
             last_processed_time = current_time
 
     def process_directory(self):
-        for root, dirs, files in os.walk(src_directory):
-            for name in files:
-                full_path = join(root, name)
+        for name in os.listdir(src_directory):
+            full_path = join(src_directory, name)
+            # Check if the path is a file before processing
+            if os.path.isfile(full_path):
                 dest = find_destination_extension(name)
                 if dest:
                     move_file(dest, full_path, name)
+
 
 if __name__ == "__main__":
     ensure_dir_exists()
